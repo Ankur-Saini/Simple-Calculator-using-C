@@ -55,7 +55,6 @@ int main()
 			printf("Sorry, wrong input.\n");
 			break;
 		}
-
 	//Float data type	
 	}else if (strcmp(datatype,typeFloat)==0) {
 		float a,b,sum,sub,mul,div,power;
@@ -107,7 +106,6 @@ int main()
 			printf("Sorry, wrong input.\n");
 			break;
 		}
-
 	//Double data type
 	} else if(strcmp(datatype,typeDouble)==0) {
 		double a,b,sum,sub,mul,div,power;
@@ -159,13 +157,9 @@ int main()
 			printf("Sorry, wrong input.\n");
 			break;
 		}
-
 	//Wrong input
 	}else {
 		printf("Sorry, wrong input! Try again.\n");
 	}
-
-	
-
 	return 0;
 }
